@@ -1,0 +1,13 @@
+# Node dependencies
+server-a/node_modules/
+server-b/node_modules/
+
+# Logs
+*.log
+
+# Env files 
+.env
+
+# Docker
+server-a/.dockerignore
+server-b/.dockerignore
