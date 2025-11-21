@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Misu",
+    "type": "kissa",
+    "age": 2,
+    "breed": "Eurooppalainen lyhytkarva",
+    "description": "Rauhallinen ja ihmisrakas sisäkissa.",
+    "imageUrl": "",
+    "status": "available"
+  },
+  {
+    "id": 2,
+    "name": "Rekku",
+    "type": "koira",
+    "age": 4,
+    "breed": "Sekarotuinen",
+    "description": "Energiaa täynnä, tykkää pitkistä lenkeistä.",
+    "imageUrl": "",
+    "status": "available"
+  },
+  {
+    "id": 3,
+    "name": "Nuppu",
+    "type": "kissa",
+    "age": 1,
+    "breed": "Maine Coon -sekoitus",
+    "description": "Leikkisä nuori kissa, kaipaa paljon huomiota.",
+    "imageUrl": "",
+    "status": "available"
+  }
+]
