@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8" />
+  <title>VaasaAdopt – Eläin</title>
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+  <div class="page">
+
+    <a href="index.html" class="back-link">Takaisin listaan</a>
+
+    <div id="animal-details"></div>
+
+    <section class="adoption-section">
+      <h2>Adoptiohakemus</h2>
+
+      <form id="adoption-form">
+        <label>
+          Nimi *
+          <input type="text" id="name" name="name" required />
+        </label>
+
+        <label>
+          Sähköposti *
+          <input type="email" id="email" name="email" required />
+        </label>
+
+        <label>
+          Viesti
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Kerro vähän itsestäsi ja kodistasi..."
+          ></textarea>
+        </label>
+
+        <button type="submit" id="adopt-button">ADOPTOI MINUT</button>
+        <p id="error-message" class="error"></p>
+      </form>
+    </section>
+
+  </div>
+
+  <script src="animal.js"></script>
+</body>
+</html>
